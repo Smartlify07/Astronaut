@@ -35,8 +35,8 @@
 }
 
 main {
-  position: relative; /* Ensure proper layering */
-  overflow: hidden; /* Prevent any overflow if necessary */
+  position: relative;
+  overflow: hidden;
 }
 
 main::before,
@@ -51,11 +51,11 @@ main::after {
   background-position: center;
   background-repeat: no-repeat;
   transition: opacity 3s ease-in-out;
-  z-index: -1; /* Keep the pseudo-elements behind the content */
+  z-index: -1;
 }
 
 main::before {
-  background-image: url(./images/astronaut-mars-collage.jpg);
+  background-image: url(./images/astro3.jpg);
   opacity: 1;
 }
 

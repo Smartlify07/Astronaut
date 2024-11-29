@@ -824,9 +824,7 @@ video {
 
 main {
   position: relative;
-  /* Ensure proper layering */
   overflow: hidden;
-  /* Prevent any overflow if necessary */
 }
 
 main::before,
@@ -842,11 +840,10 @@ main::after {
   background-repeat: no-repeat;
   transition: opacity 3s ease-in-out;
   z-index: -1;
-  /* Keep the pseudo-elements behind the content */
 }
 
 main::before {
-  background-image: url(./images/astronaut-mars-collage.jpg);
+  background-image: url(./images/astro3.jpg);
   opacity: 1;
 }
 
