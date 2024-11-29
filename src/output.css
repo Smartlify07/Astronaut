@@ -716,11 +716,6 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -851,12 +846,12 @@ main::after {
 }
 
 main::before {
-  background-image: url(../images/astronaut-mars-collage.jpg);
+  background-image: url(./images/astronaut-mars-collage.jpg);
   opacity: 1;
 }
 
 main::after {
-  background-image: url(../images/astro2.webp);
+  background-image: url(./images/astro2.webp);
   opacity: 0;
   animation: fadeBg 6s infinite alternate;
   animation-delay: 6s;
@@ -894,16 +889,12 @@ main::after {
 }
 
 @media (min-width: 768px){
-  .md\:w-6\/12{
-    width: 50%;
+  .md\:w-7\/12{
+    width: 58.333333%;
   }
 
   .md\:w-8\/12{
     width: 66.666667%;
-  }
-
-  .md\:w-7\/12{
-    width: 58.333333%;
   }
 
   .md\:px-10{
@@ -933,11 +924,6 @@ main::after {
 
   .lg\:w-6\/12{
     width: 50%;
-  }
-
-  .lg\:px-10{
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 
   .lg\:py-4{

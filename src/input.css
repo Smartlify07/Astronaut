@@ -55,12 +55,12 @@ main::after {
 }
 
 main::before {
-  background-image: url(../images/astronaut-mars-collage.jpg);
+  background-image: url(./images/astronaut-mars-collage.jpg);
   opacity: 1;
 }
 
 main::after {
-  background-image: url(../images/astro2.webp);
+  background-image: url(./images/astro2.webp);
   opacity: 0;
   animation: fadeBg 6s infinite alternate;
   animation-delay: 6s;
