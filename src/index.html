@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Astronaut</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="bg-container min-h-screen font-inter relative overflow-y-auto">
+      <div
+        class="bg-[#000] inset-0 absolute w-full left-0 opacity-30 top-0 h-full min-h-screen"
+      ></div>
+      <div
+        class="flex flex-col gap-20 min-h-screen px-4 md:px-10 font-inter relative"
+      >
+        <nav
+          class="flex items-center w-full justify-between md:py-6 lg:py-4 z-10"
+        >
+          <div class="flex items-center gap-2">
+            <h1
+              class="text-2xl text-white font-prompt font-medium tracking-wider heading"
+            >
+              USPACE
+            </h1>
+          </div>
+
+          <ul
+            class="hidden lg:flex items-center gap-4 text-white font-normal text-base"
+          >
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+
+          <button
+            class="bg-white rounded-full text-black font-medium px-3 py-2 text-sm"
+          >
+            Get Started
+          </button>
+        </nav>
+
+        <section class="flex flex-col gap-10">
+          <header class="flex flex-col">
+            <h1
+              class="text-4xl md:text-5xl lg:text-7xl text-white font-normal md:w-7/12 lg:w-6/12"
+            >
+              <span class="key"> Exploring </span>
+              <span class="key">Mars</span>, <span class="key">Digital</span>
+              <span class="key">experience</span>.
+            </h1>
+          </header>
+
+          <hr
+            class="border border-white w-9/12 md:w-7/12 lg:w-4/12 opacity-40"
+          />
+
+          <p
+            class="text-base font-normal w-full md:w-8/12 lg:w-6/12 text-white"
+          >
+            Dive deep into interactive environments, unravel the science behind
+            Mars' exploration, and feel the thrill of the discovery as you
+            navigate this extraordinary extraterrestrial world. The future of
+            space exploration is at your finger tips.
+          </p>
+          <button
+            class="bg-white rounded-full text-black font-medium px-3 py-2 text-sm self-start"
+          >
+            Get Started
+          </button>
+        </section>
+
+        <div class="flex items-center w-full justify-between pb-10">
+          <div class="flex items-center gap-10">
+            <img class="w-24" src="../images/icon-1.svg" alt="Segment Icon" />
+            <img class="w-24" src="../images/icon-2.svg" alt="Segment Icon" />
+            <img class="w-24" src="../images/icon-3.svg" alt="Segment Icon" />
+          </div>
+
+          <div class="flex items-center gap-5">
+            <button
+              class="rounded-full size-10 border border-[#fafafa06] flex items-center justify-center backdrop:blur-sm bg-[rgba(0,0,0,0.2)] text-white relative previous"
+            >
+              <div
+                class="w-10 h-10 top-0 left-0 absolute rounded-full blur-sm border border-[#aaa]"
+              ></div>
+              <span class="blur-0"> < </span>
+            </button>
+            <button
+              class="rounded-full size-10 border border-[#fafafa06] flex items-center justify-center backdrop:blur-sm bg-[rgba(0,0,0,0.2)] text-white relative next"
+            >
+              <div
+                class="w-10 h-10 top-0 left-0 absolute rounded-full blur-sm border border-[#aaa]"
+              ></div>
+              <span class="blur-0"> > </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
