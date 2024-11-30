@@ -625,6 +625,10 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .items-center{
   align-items: center;
 }
@@ -655,6 +659,15 @@ video {
 
 .gap-5{
   gap: 1.25rem;
+}
+
+.gap-x-10{
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
+}
+
+.gap-y-4{
+  row-gap: 1rem;
 }
 
 .self-start{
@@ -897,6 +910,10 @@ main::after {
 
   .md\:w-8\/12{
     width: 66.666667%;
+  }
+
+  .md\:flex-nowrap{
+    flex-wrap: nowrap;
   }
 
   .md\:px-10{
