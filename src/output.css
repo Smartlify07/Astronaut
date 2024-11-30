@@ -904,6 +904,10 @@ main::after {
 }
 
 @media (min-width: 768px){
+  .md\:flex{
+    display: flex;
+  }
+
   .md\:w-7\/12{
     width: 58.333333%;
   }
