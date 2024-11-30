@@ -716,6 +716,11 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -935,19 +940,11 @@ main::after {
 }
 
 @media (min-width: 1536px){
-  .\32xl\:w-5\/12{
-    width: 41.666667%;
+  .\32xl\:w-36{
+    width: 9rem;
   }
 
   .\32xl\:w-4\/12{
     width: 33.333333%;
-  }
-
-  .\32xl\:w-40{
-    width: 10rem;
-  }
-
-  .\32xl\:w-36{
-    width: 9rem;
   }
 }
