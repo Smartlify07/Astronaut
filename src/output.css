@@ -933,3 +933,21 @@ main::after {
     line-height: 1;
   }
 }
+
+@media (min-width: 1536px){
+  .\32xl\:w-5\/12{
+    width: 41.666667%;
+  }
+
+  .\32xl\:w-4\/12{
+    width: 33.333333%;
+  }
+
+  .\32xl\:w-40{
+    width: 10rem;
+  }
+
+  .\32xl\:w-36{
+    width: 9rem;
+  }
+}
